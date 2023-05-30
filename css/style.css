@@ -67,6 +67,10 @@ body {
     margin-right: auto;
 }
 
+.logo img {
+    width: 275px;
+}
+
 .navbar a {
     position: relative;
     font-size: 1.7rem;
@@ -735,7 +739,6 @@ span {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 2rem 7%;
     background: var(--main-color);
 }
 
@@ -844,9 +847,6 @@ span {
         display: none;
     }
 
-    .footer {
-        padding: 2rem 3%;
-    }
 }
 
 @media (max-width: 896px) {
@@ -1075,6 +1075,9 @@ span {
     html {
         font-size: 50%;
     }
+    .logo img {
+        width: 200px;
+    }
     .aboutUs-img {
         margin-top: 17em;
     }
@@ -1116,10 +1119,6 @@ span {
         flex-direction: column-reverse;
     }
 
-    .footer p {
-        text-align: center;
-        margin-top: 2rem;
-    }
 }
 
 @media (max-width: 315px) {
@@ -1151,6 +1150,9 @@ span {
 @media screen and (max-width: 450px) and (min-height: 815px) {
     .aboutUs-img {
         margin-top: 40em;
+    }
+    .logo img {
+        width: 150px;
     }
 }
 @media screen and (max-width: 450px) and (min-height: 900px) {
